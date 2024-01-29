@@ -21,6 +21,6 @@ ZSH_THEME_GIT_PROMPT_SUFFIX="] "
 
 PROMPT='
 %(?:%F{white}:%F{red}[%?] )%f$(git_prompt_status)$(git_prompt_info)%{$reset_color%}[%F{yellow}%~%f]
-%(0#:%F{red}#%f:)%F{green}dc %n%f> '
+%(0#:%F{red}#%f:)%F{green}%n%f@%m> '
 
 RPROMPT='[%T]'
