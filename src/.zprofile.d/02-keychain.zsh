@@ -4,9 +4,8 @@
 # environment.  This is important for enabling passwordless
 # ssh connections.
 
-if ! command -vp keychain 2> /dev/null; then
-    echo "install os keychain package"
-else
+if command -vp keychain 2> /dev/null; then
+
     if [ -d $HOME/.ssh ]; then
 
         echo "Loading keychain ..."
