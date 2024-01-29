@@ -1,2 +1,2 @@
-# dotfiles-linux-dev-setup
-Setup my linux dev env dotfiles
+# dotfiles-dc-linux
+My dotfiles setup for linux dev containers
