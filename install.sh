@@ -5,7 +5,6 @@
 }
 cd "$(dirname $(realpath ${BASH_SOURCE}))/src" || exit
 
-find . -type f -exec cp -riuv --backup=t --parents -t $HOME {} \;
+find . -type f -exec cp -ruv --backup=t --parents -t $HOME {} \;
 
-cp -iuv --backup=t --parents -t $HOME ./.zshrc
-
+# cp -uv --backup=t --parents -t $HOME ./.zshrc
